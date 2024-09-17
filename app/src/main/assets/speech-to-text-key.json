@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "speechtotextaccount",
+  "private_key_id": "b006ae32e5d9fe01fc204de9f04544ed2b16e0da",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDR7f6FM+yrZQEt\nGX+NFG72HuUFKhVDT/kUvAta2VSxrR+Y+1eQki3RkU4sSVP+SrEYr5R1DM8sGDRK\nkaWkg5xRtUvSepRTTgtb+ZV1n1HsyLJXzb0bOpVcf7Xhv6TQ+rGQLTkVkTInrpqo\n49UL+5z31OMk3Migimj0shfmPwkMhWxhcI1dCO3wfOfribEJcnWcWc9wWKSQ5Mvx\nmuLDUWxjL0r1pwR6Yd1hwr1dRSveePAQ1/86nDciP99Y5hlabHt6kNrGXyvSFob4\nuJUEA6eNmhZ2u7NFGFOvFdlyhx+43fgyv2c7KanQake7/rWj3WoXAk711qF+BqpT\nzGWk9u/FAgMBAAECggEAJfUYFuodUh00cfzhBveJm6dY5g7motHgOdtJW08eBPVG\nWBEkE1AXCEQzZAcLMJi9PjcrCuH6yKCEvfHpRx6D4nM7Jy7CSHC9VY9Ccq7Qr5VX\nR9B7r6NvU7cEwjF2YdHeTrEal/d1n96ueLifMig3yMjdnDHudbapBQt5jkhaAMEA\nB95dvq7nXvz9dFqew/ua8Gy46ys6fWp1B6sI5RkUg8bVaG5cvZ8zgVp/pSrUYuxo\nugkuC+b/ucF8UjPDYtnZi2xeH/cecxZI4ChPpG0S5FMOSLQGLpXI9DLyMsmuOlyq\nWvly1rYrAOMGC3EsV9XJdbyCrV81y0mKt4iilpdBCQKBgQD8ExHtppJnZTbq6aBh\nPARQnxmbDRR3Po20JSw4MEageb710oXdd0XzURsQ+DTKYel7B7es5GNfVUAHpmXi\n6a5EDusp9LgqgsAWcStayQ6bppaVCwzGTyDxhHyzvq794lf4cJ3ChjIYcWwTepvk\nTc/ZLu14ucwwHz5jXdDGAeqe3QKBgQDVMuhxbOubOgTcAW3X3zlK2s+Qzk9kMpmU\ndfTGsFvuxHCrOQeqvenJCBgowO9QorCuPQatFPja5Tqac6XnbscC8b0bs73zQfAv\nHUXimDoiUu/Psk90k5VNHSLEEdsfvHBpgY0OZ9SXjdGWmimIznbr6ugfyu+1vbPK\nkHsCCDYiCQKBgQCl+qSWeFT0cgfsPHNXMx6gO3KvzrgIII9L7CImyVrn9eJQmRN+\nFThhE6mfzd9s13XWhelilWv9bPPhVabG+BnARJaCJNpTW47B+DiU6ciNou6KKyF5\nPscxYIyACnHNSImmU/j9CkHYKG8CkHwvozDWD/lbwfN6SEhbQ33hs4danQKBgQCl\ntpgt8beARCyaxRGYBY4GvOUxbOsQurPdTYIhHduXT2Ez9XQcJtmcxIniw3RAfPRP\numeCCRcVLa/LdbCynsxZYYTYD3HJrqr+NAaqBiDJpSV5juNrfXtDIS5wsGBd3p6R\no3z8gYAg/L64DMPT7odJAKHEdHy2CunAvWSfQ7qv4QKBgBAklwbrwuzK9I96C2Bp\n6nZhaKYoWxfmH50SNLkWIF9PM9ZsEuF5O3QTqKh11+k6Rdzith3ggjehIHhjtbSP\n1d7nHYyWDxS/4lSAd/C+9UaowMZgDwYjQ8PfKxaDqkgDDD0p22irs6qa4ONXzpk0\naSKWJI80AJB60fsIepeVhIFD\n-----END PRIVATE KEY-----\n",
+  "client_email": "voicecontrolledservice@speechtotextaccount.iam.gserviceaccount.com",
+  "client_id": "117670579668824478250",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/voicecontrolledservice%40speechtotextaccount.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
