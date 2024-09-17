@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- Afișăm numele pacientului -->
+    <TextView
+        android:id="@+id/patientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient Name"
+        android:textSize="16sp"
+        android:layout_weight="1"/>
+
+    <!-- Afișăm link-ul către raportul PDF -->
+    <TextView
+        android:id="@+id/reportLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PDF Report Link"
+        android:textSize="14sp"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Icon pentru descărcarea PDF-ului -->
+    <ImageView
+        android:id="@+id/pdfIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/rounded_background_item" />
+</LinearLayout>

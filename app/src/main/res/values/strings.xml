@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">VoiceMedCareApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="google_api_key">AIzaSyA9Xio9erUww7rNPITqsiLGkboW1oqEwCk</string>
+    <string-array name="medical_functions_array">
+        <item>Cardiolog</item>
+        <item>Neurolog</item>
+        <item>Radiolog</item>
+        <item>Chirurg</item>
+        <item>Cardiolog</item>
+        <item>Neurolog</item>
+        <item>Radiolog</item>
+        <item>Chirurg</item>
+        <item>Cardiolog</item>
+        <item>Neurolog</item>
+        <item>Radiolog</item>
+        <item>Chirurg</item>
+        <item>Cardiolog</item>
+        <item>Neurolog</item>
+        <item>Radiolog</item>
+        <item>Chirurg</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Here is the fragment</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="favorite_cocktails">Favorite Cocktails</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account? Register</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
+    <string name="cocktails">Cocktails</string>
+    <string name="search_for_any_product_or_cocktail">Search for any product or cocktail</string>
+    <string name="settings">Settings</string>
+    <string name="add">Add</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="favorite">Favorite</string>
+    <string name="cocktail">Cocktail</string>
+    <string name="sign_in">Sign In</string>
+
+    <string name="log_in">Log In</string>
+    <string name="select_language">Select Language</string>
+    <string name="english" translatable="false">English</string>
+    <string name="romanian" translatable="false">Romanian</string>
+    <string name="contact" translatable="false">Contact</string>
+    <string name="subject" translatable="false">Subject</string>
+    <string name="email_address" translatable="false">E-mail address</string>
+    <string name="phone_brand" translatable="false">Phone brand</string>
+    <string name="phone_model" translatable="false">Phone model</string>
+    <string name="system_version" translatable="false">System version</string>
+    <string name="your_message" translatable="false">Message</string>
+    <string name="add_picture" translatable="false">Add picture</string>
+    <string name="send_feedback" translatable="false">Send feedback</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="about_application">About Application</string>
+    <string name="generate_report">Generate Report</string>
+    <string name="medical_reports">Medical Reports</string>
+</resources>

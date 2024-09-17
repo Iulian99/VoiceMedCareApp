@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:layout_marginBottom="8dp">
+
+
+    <!-- RadioButton pentru selectarea pacientului -->
+
+    <TextView
+        android:id="@+id/patientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient Name"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Vârsta pacientului -->
+    <TextView
+        android:id="@+id/patientAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age: 30"
+        android:layout_marginStart="20dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/patientName"
+        app:layout_constraintTop_toBottomOf="@+id/patientName"
+        android:layout_marginTop="4dp"/>
+
+    <!-- CNP-ul pacientului -->
+    <TextView
+        android:id="@+id/patientCNP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CNP: 1234567890123"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="@+id/patientName"
+        app:layout_constraintTop_toBottomOf="@+id/patientAge"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Email-ul pacientului -->
+    <TextView
+        android:id="@+id/patientEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: patient@example.com"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="@+id/patientName"
+        app:layout_constraintTop_toBottomOf="@+id/patientCNP"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Telefonul pacientului -->
+    <TextView
+        android:id="@+id/patientPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="10dp"
+        android:text="Phone: 0721234567"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/patientName"
+        app:layout_constraintTop_toBottomOf="@+id/patientEmail" />
+</androidx.constraintlayout.widget.ConstraintLayout>

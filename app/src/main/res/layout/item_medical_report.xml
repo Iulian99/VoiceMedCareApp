@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/border_background">
+    <!-- Numele Pacientului -->
+    <TextView
+        android:id="@+id/patientNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/patientName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="Name 123"
+        app:layout_constraintEnd_toStartOf="@+id/pdfIcon"
+        app:layout_constraintStart_toEndOf="@+id/patientNameTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!-- Numele Doctorului -->
+
+    <TextView
+        android:id="@+id/agePatientTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/patientName" />
+
+    <TextView
+        android:id="@+id/agePatient"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Age"
+        app:layout_constraintEnd_toStartOf="@+id/pdfIcon"
+        app:layout_constraintStart_toStartOf="@+id/patientName"
+        app:layout_constraintTop_toBottomOf="@+id/patientName" />
+
+    <TextView
+        android:id="@+id/genderPatientTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agePatientTextView" />
+
+
+    <TextView
+        android:id="@+id/genderPatient"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Male"
+        app:layout_constraintEnd_toStartOf="@+id/pdfIcon"
+        app:layout_constraintStart_toStartOf="@+id/agePatient"
+        app:layout_constraintTop_toBottomOf="@+id/agePatient" />
+    <ImageView
+        android:id="@+id/pdfIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Raport"
+        android:padding="8dp"
+        android:src="@drawable/pdf_svgrepo_com"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Bara neagră jos -->
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientMedicalReportFragment.PatientMedicalReportFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- Afișăm un ProgressBar pentru a indica încărcarea datelor -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <!-- RecyclerView pentru afișarea rapoartelor -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_reports"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:scrollbars="vertical" />
+</androidx.constraintlayout.widget.ConstraintLayout>

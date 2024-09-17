@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "359605039836",
+    "project_id": "voicemedcareapp",
+    "storage_bucket": "voicemedcareapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359605039836:android:dee19d076b20906427fa19",
+        "android_client_info": {
+          "package_name": "com.example.testapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmKodcIQDiOMrHlz5lCmGU9drjHVdyum8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359605039836:android:363058143c2a7b7e27fa19",
+        "android_client_info": {
+          "package_name": "com.example.voicemedapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmKodcIQDiOMrHlz5lCmGU9drjHVdyum8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359605039836:android:84a9f25beb8f5a7327fa19",
+        "android_client_info": {
+          "package_name": "com.example.voicemedcareapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmKodcIQDiOMrHlz5lCmGU9drjHVdyum8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VoiceMedCareApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowAnimationStyle">@null</item>
+
+    </style>
+
+    <style name="Theme.VoiceMedCareApp" parent="Base.Theme.VoiceMedCareApp" />
+
+    <style name="CustomRadioButton" parent="Widget.Material3.CompoundButton.RadioButton">
+        <item name="android:buttonTint">@color/radio_button_tint</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
